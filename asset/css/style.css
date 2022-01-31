@@ -14,6 +14,7 @@ h1{
 
 main{
     padding-left: 20px;
+    padding-right: 20px;
 }
 
 .logo{
@@ -24,11 +25,21 @@ main{
 
 .data-articolo{
     margin-bottom: 20px;
+    color: gray;
+}
+
+.scrittore{
+    color: gray;
 }
 
 .spazio-top{
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: lightseagreen;
 }
 
 span{
@@ -49,6 +60,26 @@ table{
     margin-top: 20px;
 }
 
+.prima-tabella{
+    width: 20%;
+    text-align: left;
+    background-color: aqua;
+    color: white;
+
+}
+
+.seconda-tabella{
+    width: 20%;
+    text-align: left;
+    background-color: aqua;
+    color: white;
+}
+
+.righe-tabella{
+    width: 20%;
+    text-align: left;
+    background-color: aquamarine; 
+}
 
 
 
