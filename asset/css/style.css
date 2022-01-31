@@ -4,6 +4,36 @@
     box-sizing: border-box;
 }
 
+html{
+    font-size: 12px;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+main{
+    padding-left: 20px;
+}
+
+.logo{
+    width: 70%;
+    height: 70%;
+    margin-top: 20px;
+}
+
+.data-articolo{
+    margin-bottom: 20px;
+}
+
+.spazio-top{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+span{
+    background-color: yellow;
+}
 
 .contenitore-immagine{
 height: 80px;
@@ -12,9 +42,15 @@ background-size: cover;
 background-repeat: repeat;
 background-color: aqua;
 background-size: 18%;
+margin-bottom: 20px;
 }
 
-.tim{
-   
+table{
+    margin-top: 20px;
 }
+
+
+
+
+
 
