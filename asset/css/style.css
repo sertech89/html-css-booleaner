@@ -59,6 +59,7 @@ margin-bottom: 20px;
 
 table{
     margin-top: 20px;
+    width: auto;
 }
 
 .prima-tabella{
@@ -90,6 +91,29 @@ h3{
     padding-left: 20px;
     padding-right: 20px;
 }
+
+.testo-immagine{
+    background-image: url('../img/monitor.jpg');
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    color: white;
+    font-size:20px;
+    margin-left:20px;
+}
+
+.testo-immagine2{
+    background-image: url('../img/graph.jpg');
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    color: white;
+    font-size: 20px;
+    margin-left:20px;
+}
+
+
+
 
 
 
