@@ -18,7 +18,7 @@ main{
 }
 
 .logo{
-    width: 15%;
+    width: 15%;  /* meglio usare i pixel */
     height: 70%;
     margin-top: 20px;
 }
@@ -48,10 +48,8 @@ span{
 }
 
 .contenitore-immagine{
-height: 80px;
+height: 80px;           /* più corretto usare il padding, perchè possiamo più gestire le spaziature sopra e sotto, etc*/
 background-image:url('../img/pattern.png') ;
-background-size: cover;
-background-repeat: repeat;
 background-color: rgba(97,170,255,255);
 background-size: 18%;
 margin-bottom: 20px;
@@ -100,6 +98,7 @@ h3{
 .testo-immagine{
     background-image: url('../img/monitor.jpg');
     background-size: cover;
+    background-position: center;
     height: 250px;
     width: 250px;
     color: white;
@@ -111,6 +110,7 @@ h3{
 .testo-immagine2{
     background-image: url('../img/graph.jpg');
     background-size: cover;
+    background-position: center;
     height: 250px;
     width: 250px;
     color: white;
@@ -118,6 +118,9 @@ h3{
     margin-left:20px;
 }
 
+footer h3{              /*footer div  con anche il margin-top: 10px;(ancora meglio)*/
+    margin-left: 10px;
+}
 
 
 
