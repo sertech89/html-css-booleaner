@@ -64,6 +64,7 @@ margin-bottom: 20px;
 table{
     margin-top: 20px;
     width: auto;
+    border-spacing: 0;
 }
 
 .prima-tabella{
